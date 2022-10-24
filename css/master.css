@@ -515,6 +515,8 @@ body {
     text-align: center;
 }
 
+
+
 .gallery .images-box img {
     width: 200px;
     padding: 3px;
@@ -522,6 +524,13 @@ body {
     border: 1px solid #CCC;
     margin: 5px;
     cursor: pointer;
+}
+
+@media(max-width:575px) {
+    .gallery .images-box img {
+        width: 90%;
+        margin: auto;
+    }
 }
 
 .gallery .images-box img:hover {
